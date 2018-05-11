@@ -1,0 +1,115 @@
+/* 
+#202C39
+#283845
+#FFE066
+#B8B08D
+#F29559 
+*/
+
+/* Global style
+-------------------------------- */
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+body {
+
+    font-family: 'Crimson Text', serif;
+    margin: 0px;
+}
+
+h1, h2 {
+    
+    font-family: 'Indie Flower', cursive;
+    font-weight: 400;
+    
+}
+
+
+
+h2 {
+    font-size: 30px;
+    margin-top:0;
+}
+
+h1 {
+    font-size: 55px;
+}
+
+a {
+    color: #EF233C;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+}
+
+.col-narrow {
+    width: 30%;
+    float: left;
+    min-height: 175px;
+}
+.col-wide {
+    width: 70%;
+    float: left;
+
+}
+
+/* Header and footer style
+-------------------------------- */
+header, footer {
+    background: #202C39;
+    color: #B8B08D ;
+    
+    
+}
+
+/* header */
+header {
+    /* text-align: center; */
+}
+header h1, header h2 {
+    color: #EDF2F4;
+    margin: 0;
+} 
+
+.profile-img {
+
+    border-radius: 50%;
+
+}
+
+/* footer */
+footer {
+    text-align:  center;
+}
+
+.contact-info a {
+    padding:  10px;
+}
+
+/* Work experience style
+-------------------------------- */
+.work {
+    background: #F29559 ;
+    color: #283845;
+    
+}
+
+/* Education style
+-------------------------------- */
+.education {
+    background: #FFE066;
+    color: #283845;
+}
+
+
